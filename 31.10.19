@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Exercicio1 {
+	public static void main (String [] args) {
+		Scanner ler = new Scanner ( System.in); 
+		
+
+		//menu 
+			int i = 0;
+			System.out.println("Digite 1 para:para ver o fatorial de um numero");
+			System.out.println("Digite 2 para:para ver a tabuada de um numero");
+			System.out.println("Digite 3 para:para ver quanto tempo  falta para alguma pessoa se aposentar");
+			System.out.println("Digite 4 para:para ver a potencia de um numero");
+			System.out.println(" ");
+			System.out.println("escolha uma opção");
+			i = ler.nextInt();
+			
+			
+			// opções
+			if (i == 1 ) {
+				int numero = 0;
+				
+				System.out.println("escolha um numero ");
+		        numero =ler.nextInt(); 
+				int r = fat(numero);
+				System.out.println("o fatorial desse numero é :"+r);
+				      }
+			
+			else if (i == 2 ) {
+				int numero = 0;
+				
+				System.out.println("escolha um numero ");
+		        numero =ler.nextInt(); 
+				int r =  tab (numero);
+			}
+				
+			else if (i ==3 ) {
+				
+			}
+		
+		
+		
+           else if (i ==3 ) {
+				
+			}
+	 
+	
